@@ -1,0 +1,28 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.home-logo {
+  width: 160px;
+}
+.head {
+  font-family: 'Roboto';
+  font-size: 55px;
+  font-weight: bold;
+  color: #551e53;
+}
+@media screen and(max-width:576px) {
+  .head {
+    font-size: 40px;
+  }
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding-top: 0px;
+  color: #12022f;
+}
